@@ -1,0 +1,1600 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="dymanic Panel"/>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[864, 550]"/>
+    </Property>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,35,0,0,3,99"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="870" height="550"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="870" height="550"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="mainpanel">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                      <Color PropertyName="highlightInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                      <Color PropertyName="shadowOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                      <Color PropertyName="shadowInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="130" y="40" width="730" height="500"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="assignment1panel1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="cc" red="99" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="assignment1panel1MouseEntered"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                      <CardConstraints cardName="card2"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel14" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                  <Component id="givendate" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="115" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="submisssiondate" min="-2" pref="55" max="-2" attributes="0"/>
+                                      <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+                                      <Component id="submisssionmonth" min="-2" pref="60" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel6" min="-2" pref="130" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <Component id="snd41st" min="-2" pref="110" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="assignment1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="assignment1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" min="-2" pref="359" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="submisssiondate" min="-2" max="-2" attributes="0"/>
+                                              <Component id="submisssionmonth" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="snd41st" alignment="1" min="-2" pref="51" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="givendate" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace pref="13" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="assignment1">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="24" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Assignment 1"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="assignment1MouseEntered"/>
+                      </Events>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="material1">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Myriad Pro Light" size="18" style="1"/>
+                            </Property>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                                <BevelBorder>
+                                  <Color PropertyName="highlightOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="highlightInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="shadowOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="shadowInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                </BevelBorder>
+                              </Border>
+                            </Property>
+                            <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="cc" red="99" type="rgb"/>
+                            </Property>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="material1AncestorAdded"/>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="material1MouseClicked"/>
+                            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="material1MouseEntered"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JComboBox" name="submisssiondate">
+                      <Properties>
+                        <Property name="maximumRowCount" type="int" value="40"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="33">
+                            <StringItem index="0" value="  DD"/>
+                            <StringItem index="1" value="1"/>
+                            <StringItem index="2" value="2"/>
+                            <StringItem index="3" value="3"/>
+                            <StringItem index="4" value="4"/>
+                            <StringItem index="5" value="5"/>
+                            <StringItem index="6" value="6"/>
+                            <StringItem index="7" value="7"/>
+                            <StringItem index="8" value="8"/>
+                            <StringItem index="9" value="9"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                            <StringItem index="13" value="13"/>
+                            <StringItem index="14" value="14"/>
+                            <StringItem index="15" value="15"/>
+                            <StringItem index="16" value="16"/>
+                            <StringItem index="17" value="17"/>
+                            <StringItem index="18" value="18"/>
+                            <StringItem index="19" value="19"/>
+                            <StringItem index="20" value="20"/>
+                            <StringItem index="21" value="21"/>
+                            <StringItem index="22" value="22"/>
+                            <StringItem index="23" value="23"/>
+                            <StringItem index="24" value="24"/>
+                            <StringItem index="25" value="25"/>
+                            <StringItem index="26" value="26"/>
+                            <StringItem index="27" value="27"/>
+                            <StringItem index="28" value="28"/>
+                            <StringItem index="29" value="29"/>
+                            <StringItem index="30" value="30"/>
+                            <StringItem index="31" value="30"/>
+                            <StringItem index="32" value="31"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel6">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Submission Date"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="submisssionmonth">
+                      <Properties>
+                        <Property name="maximumRowCount" type="int" value="13"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="13">
+                            <StringItem index="0" value="  MM"/>
+                            <StringItem index="1" value="01"/>
+                            <StringItem index="2" value="02"/>
+                            <StringItem index="3" value="03"/>
+                            <StringItem index="4" value="04"/>
+                            <StringItem index="5" value="05"/>
+                            <StringItem index="6" value="06"/>
+                            <StringItem index="7" value="07"/>
+                            <StringItem index="8" value="08"/>
+                            <StringItem index="9" value="09"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="submisssionmonthActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="snd41st">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="16" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="SENT"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="snd41stActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel14">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Given Date"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="givendate">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="****"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="assignment2panel1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="cc" red="99" type="rgb"/>
+                    </Property>
+                    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[655, 496]"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="assignment2panel1MouseEntered"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                      <CardConstraints cardName="card3"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="assignment2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane5" alignment="0" pref="706" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel15" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                  <Component id="givendate1" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="submisssiondate1" min="-2" pref="55" max="-2" attributes="0"/>
+                                      <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+                                      <Component id="submisssionmonth1" min="-2" pref="60" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel12" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <Component id="sent42nd" min="-2" pref="110" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="assignment2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="18" max="32767" attributes="0"/>
+                              <Component id="jScrollPane5" min="-2" pref="349" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="submisssiondate1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="submisssionmonth1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="sent42nd" alignment="1" min="-2" pref="51" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="givendate1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="assignment2">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="24" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Assignment 2"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="assignment2MouseClicked"/>
+                        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="assignment2MouseEntered"/>
+                      </Events>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="material2">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Myriad Pro Light" size="18" style="1"/>
+                            </Property>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                                <BevelBorder>
+                                  <Color PropertyName="highlightOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="highlightInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="shadowOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="shadowInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                </BevelBorder>
+                              </Border>
+                            </Property>
+                            <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="cc" red="99" type="rgb"/>
+                            </Property>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="material2MouseClicked"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="sent42nd">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="16" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="SENT"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sent42ndActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel12">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Submission Date"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="submisssionmonth1">
+                      <Properties>
+                        <Property name="maximumRowCount" type="int" value="13"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="13">
+                            <StringItem index="0" value="  MM"/>
+                            <StringItem index="1" value="01"/>
+                            <StringItem index="2" value="02"/>
+                            <StringItem index="3" value="03"/>
+                            <StringItem index="4" value="04"/>
+                            <StringItem index="5" value="05"/>
+                            <StringItem index="6" value="06"/>
+                            <StringItem index="7" value="07"/>
+                            <StringItem index="8" value="08"/>
+                            <StringItem index="9" value="09"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="submisssionmonth1ActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="submisssiondate1">
+                      <Properties>
+                        <Property name="maximumRowCount" type="int" value="40"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="33">
+                            <StringItem index="0" value=" DD"/>
+                            <StringItem index="1" value="1"/>
+                            <StringItem index="2" value="2"/>
+                            <StringItem index="3" value="3"/>
+                            <StringItem index="4" value="4"/>
+                            <StringItem index="5" value="5"/>
+                            <StringItem index="6" value="6"/>
+                            <StringItem index="7" value="7"/>
+                            <StringItem index="8" value="8"/>
+                            <StringItem index="9" value="9"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                            <StringItem index="13" value="13"/>
+                            <StringItem index="14" value="14"/>
+                            <StringItem index="15" value="15"/>
+                            <StringItem index="16" value="16"/>
+                            <StringItem index="17" value="17"/>
+                            <StringItem index="18" value="18"/>
+                            <StringItem index="19" value="19"/>
+                            <StringItem index="20" value="20"/>
+                            <StringItem index="21" value="21"/>
+                            <StringItem index="22" value="22"/>
+                            <StringItem index="23" value="23"/>
+                            <StringItem index="24" value="24"/>
+                            <StringItem index="25" value="25"/>
+                            <StringItem index="26" value="26"/>
+                            <StringItem index="27" value="27"/>
+                            <StringItem index="28" value="28"/>
+                            <StringItem index="29" value="29"/>
+                            <StringItem index="30" value="30"/>
+                            <StringItem index="31" value="30"/>
+                            <StringItem index="32" value="31"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel15">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Given Date"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="givendate1">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="****"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="assignment3panel1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="cc" red="99" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="assignment3panel1MouseEntered"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                      <CardConstraints cardName="card4"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="assignment3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane4" alignment="0" pref="706" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel16" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                  <Component id="givendate2" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="submisssiondate2" min="-2" pref="55" max="-2" attributes="0"/>
+                                      <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+                                      <Component id="submisssionmonth2" min="-2" pref="60" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel11" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <Component id="snd43rd" min="-2" pref="110" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="assignment3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="18" max="32767" attributes="0"/>
+                              <Component id="jScrollPane4" min="-2" pref="349" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="submisssiondate2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="submisssionmonth2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="snd43rd" alignment="1" min="-2" pref="51" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="givendate2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="assignment3">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="24" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Assignment 3"/>
+                      </Properties>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="material3">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Myriad Pro Light" size="18" style="1"/>
+                            </Property>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="text" type="java.lang.String" value="&#xa;"/>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                                <BevelBorder>
+                                  <Color PropertyName="highlightOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="highlightInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="shadowOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="shadowInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                </BevelBorder>
+                              </Border>
+                            </Property>
+                            <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="cc" red="99" type="rgb"/>
+                            </Property>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="material3MouseClicked"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="snd43rd">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="16" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="SENT"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="snd43rdActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel11">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Submission Date"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="submisssionmonth2">
+                      <Properties>
+                        <Property name="maximumRowCount" type="int" value="13"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="13">
+                            <StringItem index="0" value="  MM"/>
+                            <StringItem index="1" value="01"/>
+                            <StringItem index="2" value="02"/>
+                            <StringItem index="3" value="03"/>
+                            <StringItem index="4" value="04"/>
+                            <StringItem index="5" value="05"/>
+                            <StringItem index="6" value="06"/>
+                            <StringItem index="7" value="07"/>
+                            <StringItem index="8" value="08"/>
+                            <StringItem index="9" value="09"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="submisssionmonth2ActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="submisssiondate2">
+                      <Properties>
+                        <Property name="maximumRowCount" type="int" value="40"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="33">
+                            <StringItem index="0" value="  DD"/>
+                            <StringItem index="1" value="1"/>
+                            <StringItem index="2" value="2"/>
+                            <StringItem index="3" value="3"/>
+                            <StringItem index="4" value="4"/>
+                            <StringItem index="5" value="5"/>
+                            <StringItem index="6" value="6"/>
+                            <StringItem index="7" value="7"/>
+                            <StringItem index="8" value="8"/>
+                            <StringItem index="9" value="9"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                            <StringItem index="13" value="13"/>
+                            <StringItem index="14" value="14"/>
+                            <StringItem index="15" value="15"/>
+                            <StringItem index="16" value="16"/>
+                            <StringItem index="17" value="17"/>
+                            <StringItem index="18" value="18"/>
+                            <StringItem index="19" value="19"/>
+                            <StringItem index="20" value="20"/>
+                            <StringItem index="21" value="21"/>
+                            <StringItem index="22" value="22"/>
+                            <StringItem index="23" value="23"/>
+                            <StringItem index="24" value="24"/>
+                            <StringItem index="25" value="25"/>
+                            <StringItem index="26" value="26"/>
+                            <StringItem index="27" value="27"/>
+                            <StringItem index="28" value="28"/>
+                            <StringItem index="29" value="29"/>
+                            <StringItem index="30" value="30"/>
+                            <StringItem index="31" value="30"/>
+                            <StringItem index="32" value="31"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel16">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Given Date"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="givendate2">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="****"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="assignment4panel1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="cc" red="99" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="assignment4panel1MouseEntered"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                      <CardConstraints cardName="card5"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="assignment4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane3" alignment="1" pref="706" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel17" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                  <Component id="givendate3" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="submisssiondate3" min="-2" pref="55" max="-2" attributes="0"/>
+                                      <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+                                      <Component id="submisssionmonth3" min="-2" pref="60" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel10" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <Component id="snd44th" min="-2" pref="110" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="assignment4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="18" max="32767" attributes="0"/>
+                              <Component id="jScrollPane3" min="-2" pref="349" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="submisssiondate3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="submisssionmonth3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="snd44th" alignment="1" min="-2" pref="51" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="givendate3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="assignment4">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="24" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Assignment 4"/>
+                      </Properties>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="material4">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Myriad Pro Light" size="18" style="1"/>
+                            </Property>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                                <BevelBorder>
+                                  <Color PropertyName="highlightOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="highlightInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="shadowOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="shadowInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                </BevelBorder>
+                              </Border>
+                            </Property>
+                            <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="cc" red="99" type="rgb"/>
+                            </Property>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="material4MouseClicked"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="snd44th">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="16" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="SENT"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="snd44thActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel10">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Submission Date"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="submisssionmonth3">
+                      <Properties>
+                        <Property name="maximumRowCount" type="int" value="13"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="13">
+                            <StringItem index="0" value="  MM"/>
+                            <StringItem index="1" value="01"/>
+                            <StringItem index="2" value="02"/>
+                            <StringItem index="3" value="03"/>
+                            <StringItem index="4" value="04"/>
+                            <StringItem index="5" value="05"/>
+                            <StringItem index="6" value="06"/>
+                            <StringItem index="7" value="07"/>
+                            <StringItem index="8" value="08"/>
+                            <StringItem index="9" value="09"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="submisssionmonth3ActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="submisssiondate3">
+                      <Properties>
+                        <Property name="maximumRowCount" type="int" value="40"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="33">
+                            <StringItem index="0" value=" DD"/>
+                            <StringItem index="1" value="1"/>
+                            <StringItem index="2" value="2"/>
+                            <StringItem index="3" value="3"/>
+                            <StringItem index="4" value="4"/>
+                            <StringItem index="5" value="5"/>
+                            <StringItem index="6" value="6"/>
+                            <StringItem index="7" value="7"/>
+                            <StringItem index="8" value="8"/>
+                            <StringItem index="9" value="9"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                            <StringItem index="13" value="13"/>
+                            <StringItem index="14" value="14"/>
+                            <StringItem index="15" value="15"/>
+                            <StringItem index="16" value="16"/>
+                            <StringItem index="17" value="17"/>
+                            <StringItem index="18" value="18"/>
+                            <StringItem index="19" value="19"/>
+                            <StringItem index="20" value="20"/>
+                            <StringItem index="21" value="21"/>
+                            <StringItem index="22" value="22"/>
+                            <StringItem index="23" value="23"/>
+                            <StringItem index="24" value="24"/>
+                            <StringItem index="25" value="25"/>
+                            <StringItem index="26" value="26"/>
+                            <StringItem index="27" value="27"/>
+                            <StringItem index="28" value="28"/>
+                            <StringItem index="29" value="29"/>
+                            <StringItem index="30" value="30"/>
+                            <StringItem index="31" value="30"/>
+                            <StringItem index="32" value="31"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel17">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Given Date"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="givendate3">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="****"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="assignment5panel1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="cc" red="99" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="assignment5panel1MouseEntered"/>
+                  </Events>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+                      <CardConstraints cardName="card6"/>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="assignment5" min="-2" pref="178" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jScrollPane2" alignment="1" pref="706" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel18" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                  <Component id="givendate4" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="submisssiondate4" min="-2" pref="55" max="-2" attributes="0"/>
+                                      <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+                                      <Component id="submisssionmonth4" min="-2" pref="60" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel9" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <Component id="snd45th" min="-2" pref="110" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="assignment5" min="-2" pref="28" max="-2" attributes="0"/>
+                              <EmptySpace pref="19" max="32767" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="349" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="submisssiondate4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="submisssionmonth4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="snd45th" alignment="1" min="-2" pref="51" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="givendate4" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Component class="javax.swing.JLabel" name="assignment5">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="24" style="1"/>
+                        </Property>
+                        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Assignment 5"/>
+                      </Properties>
+                    </Component>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="material5">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Myriad Pro Light" size="18" style="1"/>
+                            </Property>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                                <BevelBorder>
+                                  <Color PropertyName="highlightOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="highlightInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="shadowOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                  <Color PropertyName="shadowInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                                </BevelBorder>
+                              </Border>
+                            </Property>
+                            <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="cc" red="99" type="rgb"/>
+                            </Property>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="material5MouseClicked"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="snd45th">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="16" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="SENT"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Hand Cursor"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="snd45thActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel9">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Submission Date"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="submisssionmonth4">
+                      <Properties>
+                        <Property name="maximumRowCount" type="int" value="13"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="13">
+                            <StringItem index="0" value="  MM"/>
+                            <StringItem index="1" value="01"/>
+                            <StringItem index="2" value="02"/>
+                            <StringItem index="3" value="03"/>
+                            <StringItem index="4" value="04"/>
+                            <StringItem index="5" value="05"/>
+                            <StringItem index="6" value="06"/>
+                            <StringItem index="7" value="07"/>
+                            <StringItem index="8" value="08"/>
+                            <StringItem index="9" value="09"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="submisssionmonth4ActionPerformed"/>
+                      </Events>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JComboBox" name="submisssiondate4">
+                      <Properties>
+                        <Property name="maximumRowCount" type="int" value="40"/>
+                        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                          <StringArray count="33">
+                            <StringItem index="0" value=" DD"/>
+                            <StringItem index="1" value="1"/>
+                            <StringItem index="2" value="2"/>
+                            <StringItem index="3" value="3"/>
+                            <StringItem index="4" value="4"/>
+                            <StringItem index="5" value="5"/>
+                            <StringItem index="6" value="6"/>
+                            <StringItem index="7" value="7"/>
+                            <StringItem index="8" value="8"/>
+                            <StringItem index="9" value="9"/>
+                            <StringItem index="10" value="10"/>
+                            <StringItem index="11" value="11"/>
+                            <StringItem index="12" value="12"/>
+                            <StringItem index="13" value="13"/>
+                            <StringItem index="14" value="14"/>
+                            <StringItem index="15" value="15"/>
+                            <StringItem index="16" value="16"/>
+                            <StringItem index="17" value="17"/>
+                            <StringItem index="18" value="18"/>
+                            <StringItem index="19" value="19"/>
+                            <StringItem index="20" value="20"/>
+                            <StringItem index="21" value="21"/>
+                            <StringItem index="22" value="22"/>
+                            <StringItem index="23" value="23"/>
+                            <StringItem index="24" value="24"/>
+                            <StringItem index="25" value="25"/>
+                            <StringItem index="26" value="26"/>
+                            <StringItem index="27" value="27"/>
+                            <StringItem index="28" value="28"/>
+                            <StringItem index="29" value="29"/>
+                            <StringItem index="30" value="30"/>
+                            <StringItem index="31" value="30"/>
+                            <StringItem index="32" value="31"/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="jLabel18">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="Given Date"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="givendate4">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="SimSun" size="14" style="1"/>
+                        </Property>
+                        <Property name="text" type="java.lang.String" value="****"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="time">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SimSun" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Time"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="700" y="10" width="90" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="exit">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="x"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="exitMouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="exitMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="exitMouseExited"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="830" y="-10" width="30" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="mini">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="-"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="miniMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="miniMouseExited"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="805" y="-10" width="30" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SimSun" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value=" Subject2 Assignment "/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="160" y="0" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="teacherName">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SimSun" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Teacher Name"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="teacherNameMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="teacherNameMouseExited"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="30" y="40" width="100" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="subname">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SimSun" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Subject"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="subnameMouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="subnameMouseExited"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="30" y="90" width="80" height="20"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Container class="javax.swing.JPanel" name="menupanel">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder>
+                      <Color PropertyName="highlightOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                      <Color PropertyName="highlightInner" blue="ff" green="ff" red="ff" type="rgb"/>
+                      <Color PropertyName="shadowOuter" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                      <Color PropertyName="shadowInner" blue="ff" green="ff" id="white" palette="1" red="ff" type="palette"/>
+                    </BevelBorder>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="10" y="130" width="110" height="410"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnassignment4" pref="90" max="32767" attributes="0"/>
+                                  <Component id="btnassignment5" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnassignment11" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="btnassignment12" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="btnassignment13" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="btnassignment11" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="50" pref="50" max="-2" attributes="0"/>
+                          <Component id="btnassignment12" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                          <Component id="btnassignment13" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                          <Component id="btnassignment4" min="-2" pref="30" max="-2" attributes="0"/>
+                          <EmptySpace min="50" pref="50" max="-2" attributes="0"/>
+                          <Component id="btnassignment5" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JButton" name="btnassignment4">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Serif" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Assignment4"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="null"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnassignment4ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnassignment5">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Serif" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Assignment5"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="null"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnassignment5ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnassignment11">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Serif" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Assignment1"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="null"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnassignment11ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnassignment12">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Serif" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Assignment2"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="null"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnassignment12ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="btnassignment13">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Serif" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Asignment3"/>
+                    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                      <Border info="null"/>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnassignment13ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="date">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="SimSun" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Date"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="600" y="10" width="80" height="-1"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
